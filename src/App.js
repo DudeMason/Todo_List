@@ -4,7 +4,7 @@ import TodoForm from './todos/TodoForm';
 
 class App extends Component {
   state = { todos: [
-      { id: 1, todoValue: 'Learn rails', complete: true },
+      { id: 1, todoValue: 'Learn rails', complete: false },
       { id: 2, todoValue: 'Learn React', complete: false },
       { id: 3, todoValue: 'Learn React Router', complete: false }
     ]
